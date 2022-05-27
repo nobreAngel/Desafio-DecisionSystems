@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Reset do body*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9370db;
+}
+
+/*h2*/
+
+h2{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10% 0 5% 0 ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* DIV pai*/
+
+.nameAge{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/*input*/
+
+input{
+    padding: 12px ;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+    color: #ffffff;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+@media (min-width: 1025px), (min-width: 1281px) {
+    .nameAge{
+        display: flex;
+    }
+}
+
